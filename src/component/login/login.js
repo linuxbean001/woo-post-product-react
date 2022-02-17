@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link} from 'react-router-dom';
 import FilterService from '../../services/filterService';
 import { localS } from '../../helper/localS';
-import history from '../../helper/history';
+// import history from '../../helper/history';
 
 const Api = new FilterService();
 

@@ -158,7 +158,7 @@ const Api = new ProductService();
                     <div className="col-md-4 card" key={index}>
                         <div className="card-body">
                             <h1 className="card-title">{list.name}</h1>
-                            <div className="product-img"> <img src={list.images[0].src}/></div>
+                            <div className="product-img"> <img src={list.images[0].src} alt=""/></div>
                             <p className="card-text"  dangerouslySetInnerHTML={{ __html: list.description }}></p>
                             <p className="card-text">${list.price}</p>
                         </div>

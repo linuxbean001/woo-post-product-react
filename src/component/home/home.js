@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { localS } from '../../helper/localS';
-import FilterService from '../../services/filterService';
-const Api = new FilterService();
+// import FilterService from '../../services/filterService';
+//const Api = new FilterService();
  class Home extends Component {
      constructor(props){
          super(props);

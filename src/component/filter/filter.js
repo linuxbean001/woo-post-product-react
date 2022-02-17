@@ -90,7 +90,7 @@ class Filter extends Component {
   }
 
   isExpandableRow = (row) => {    
-    if (row.id == this.state.selectedId)
+    if (row.id === this.state.selectedId)
       return true
     return false;
   }
@@ -197,7 +197,7 @@ class Filter extends Component {
                      type='button'
                      className={
                        'btn btn-secondary ' +
-                       (this.state.bedrooms == item ? 'activeCls' : '')
+                       (this.state.bedrooms === item ? 'activeCls' : '')
                      }
                      onClick={() =>
                        this.setState({ bedrooms: item }, this.handleFilter)
@@ -222,7 +222,7 @@ class Filter extends Component {
                      type='button'
                      className={
                        'btn btn-secondary ' +
-                       (this.state.bathrooms == item ? 'activeCls' : '')
+                       (this.state.bathrooms === item ? 'activeCls' : '')
                      }
                      onClick={() =>
                        this.setState({ bathrooms: item }, this.handleFilter)
@@ -260,7 +260,6 @@ class Filter extends Component {
                 expandableRow={this.isExpandableRow}
                 expandComponent={() => this.expandComponent()}
                 selectRow={selectRowProp}
-                striped
               >
                 {/* {
                             fields.map((f, i) => (

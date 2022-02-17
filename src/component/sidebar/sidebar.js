@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link, Route, Switch } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 class SideBar extends Component {
     render() {
         return (
@@ -12,7 +12,6 @@ class SideBar extends Component {
                     <span className="sidebar-title">Apartments</span>
                     <span className="sidebar-icon"><i className="fa fa-home" aria-hidden="true"></i></span>
                     </Link>
-                       
                     </li>
                     <li>
                     <Link to={'/signup'}>
@@ -31,9 +30,7 @@ class SideBar extends Component {
                     <span className="sidebar-title">Products</span>
                     <span className="sidebar-icon"><i className="fa fa-database" aria-hidden="true"></i></span>
                     </Link>
-                       
-                    </li>
-                  
+                    </li>                  
                 </ul>
             </aside>            
         </div>

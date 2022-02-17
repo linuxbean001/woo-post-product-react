@@ -1,16 +1,16 @@
-import WooCommerceAPI from 'woocommerce-api';
-import wooConfig from '../wooConfig';
+// import WooCommerceAPI from 'woocommerce-api';
+// import wooConfig from '../wooConfig';
 import axios from 'axios';
-import {TOKEN_API_URL,API_URL} from '../configs/appConfig';
-import { localS } from '../helper/localS';
+// import {TOKEN_API_URL,API_URL} from '../configs/appConfig';
+// import { localS } from '../helper/localS';
 
-const WooCommerce = new WooCommerceAPI({
-	url: wooConfig.siteUrl,
-	consumerKey: wooConfig.consumerKey,
-	consumerSecret: wooConfig.consumerSecret,
-	wpAPI: true,
-	version: 'wc/v2'
-});
+// const WooCommerce = new WooCommerceAPI({
+// 	url: wooConfig.siteUrl,
+// 	consumerKey: wooConfig.consumerKey,
+// 	consumerSecret: wooConfig.consumerSecret,
+// 	wpAPI: true,
+// 	version: 'wc/v2'
+// });
 
 export default class ProductService { 
     getAllProducts(){

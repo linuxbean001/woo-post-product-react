@@ -3,7 +3,6 @@ import React, { Component } from 'react'
 class Details extends Component {
     constructor(props){
         super(props);
-    
     }
     
     render() {
@@ -20,6 +19,7 @@ class Details extends Component {
                   this.props.details[0].image_id +
                  '.jpg'
                }
+               alt=""
              />
            </div>
          </div>
